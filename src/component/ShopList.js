@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { AiOutlineClose, AiOutlineShopping } from 'react-icons/ai'
+import ItemList from './ItemList';
 import './shopList.css'
 
 const ShopList = () => {
@@ -8,8 +9,13 @@ const ShopList = () => {
     const ShopList = () => {
         if(shopListVisible === true) {
             return ( 
-                <div>
-                    <AiOutlineClose className='Homepage-icon' id='ShopListButton'/>
+                <div className='Shoplist-div'>
+                    <section className='Shoplist-section'>
+                        <AiOutlineClose className='Homepage-icon' id='ShopListButton'/>
+                        <h1>Your shopping list</h1>
+                        <ItemList />
+                        <button className='Shoplist-checkout-button'>Checkout</button>
+                    </section>
                 </div>
             )
         }else{

@@ -1,0 +1,22 @@
+.Shoplist-div{
+    height: 100vh;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+.Shoplist-section{
+    padding-block: 2.5%;
+    padding-inline: 5%;
+}
+
+.Shoplist-checkout-button{
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 3em;
+}
