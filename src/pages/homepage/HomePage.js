@@ -1,21 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from '../../component/Navbar';
 import './homePage.css';
-import { AiFillGithub } from "react-icons/ai";
-import ShopList from '../../component/ShopList';
 
 const HomePage = () => {
   return (
     <div className='Homepage-div'>
-      <header className='Homepage-header'>
-        <div>
-          <h1> PlaceHolder </h1>
-        </div>
-        <div className='Homepage-icon-div'>
-          <ShopList />
-          <AiFillGithub className='Homepage-icon' />
-        </div>
-      </header>
+      <Navbar />
       <section className='Homepage-section'>
         <div>
           <p className="Homepage-text">
