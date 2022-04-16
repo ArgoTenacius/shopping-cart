@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HomePage from "./homepage/HomePage";
+import HomePage from "./pages/homepage/HomePage";
 import ShopPage from "./ShopPage";
 
 const RouteSwitch = () => {
