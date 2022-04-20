@@ -1,0 +1,50 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.itemList--section{
+    display: flex;
+    margin-block: 2%;
+    gap: 1%;
+}
+
+.itemList--image{
+    width: 96px;
+    height: 96px;
+}
+
+.itemList--details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemList-description{
+    color: white;
+    font-size: 1.5em;
+}
+
+.itemList--quantity{
+    width: 50%;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.itemList--minus, .itemList--plus{
+    height: 100%;
+    width: 32px;
+    color: black;
+}
+
+.itemList--quantity-input{
+    height: 100%;
+    width: 50%;
+    color: black;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+.navbar--section{
+    background-color: rgb(26, 26, 26);
+    min-height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar--icons{
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+}
