@@ -9,6 +9,7 @@ const ShopList = ({openButton}) => {
         <AiOutlineClose className='shopList--icon' onClick={openButton} />
         <h1 className='shopList--title'>Your cart</h1>
         <ItemList />
+        <h5 className='shopList--total'>Total to pay: 0$</h5>
         <button className='shopList--checkout'>Checkout</button>
     </section>
   )
