@@ -1,0 +1,10 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.product__img{
+    width: 258px;
+    height: 258px;
+}

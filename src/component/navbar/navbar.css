@@ -1,0 +1,27 @@
+.navbar{
+    width: 100vw;
+    height: 36px;
+    display: flex;
+    justify-content: flex-end;
+    padding-inline: 1.5%;
+    box-shadow: 1px 1px black;
+}
+
+.navbar__icon{
+    position: absolute;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.navbar__item-count{
+    user-select: none;
+    position: relative;
+    right: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: orange;
+}
