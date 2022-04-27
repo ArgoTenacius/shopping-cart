@@ -28,3 +28,25 @@
     font-size: clamp(18px, 2.5vw ,28px);
     cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+    .homepage{
+        background-position: top;
+        background-position-y: 36px;
+    }
+
+    .homepage__description{
+        padding-top: 70px !important;
+        width: 100%;
+        margin: 0;
+        align-items: center;
+    }
+
+    .homepage__description-button{
+        width: 80vw;
+    }
+
+    .homepage__description-title, .homepage__description-phrase{
+        font-size: clamp(20px, 3vw, 28px);
+    }
+}

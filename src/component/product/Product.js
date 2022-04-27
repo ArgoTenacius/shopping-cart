@@ -7,7 +7,7 @@ export const Product = ({product, addOn}) => {
         <img src={product.img} alt='keyboard' className='product__img'/>
         <h2>{product.name}</h2>
         <h3>$ {product.price}.00</h3>
-        <button onClick={() => addOn.addOn(product)}>Add to cart</button>
+        <button onClick={() => addOn.addOn(product)} className='product__button'>Add to cart</button>
     </section>
   )
 }
