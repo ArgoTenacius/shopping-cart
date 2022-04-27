@@ -1,0 +1,30 @@
+.homepage{
+    background-image: url('../../img/dragonKeyboard.webp');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position:left;
+    width: 100vw;
+    height: calc(100vh - 36px);
+    margin-top: 36px;
+}
+
+.homepage__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 18px;
+    height: 100%;
+    float: right;
+}
+
+.homepage__description-title, .homepage__description-phrase{
+    font-size: clamp(16px, 2vw, 24px);
+}
+
+.homepage__description-button{
+    width: 100%;
+    background: none;
+    border: 1px solid rgb(54, 54, 54);
+    font-size: clamp(18px, 2.5vw ,28px);
+    cursor: pointer;
+}

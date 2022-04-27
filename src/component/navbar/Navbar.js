@@ -6,10 +6,10 @@ import './navbar.css'
 const Navbar = ({cartItems, openBasket}) => {
   return (
     <header className='navbar'>
-        <Link to={'/'}>
+        <Link to={'/'} className='navbar__link'>
           <h2>Home</h2>
         </Link>
-        <Link to={'/shopPage'}>
+        <Link to={'/shopPage'} className='navbar__link'>
           <h2>Shop</h2>
         </Link>
         
