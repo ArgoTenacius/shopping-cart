@@ -41,7 +41,7 @@ const App = () => {
     };
     
   return (
-    <BrowserRouter basename='/'>
+    <BrowserRouter basename='/shopping-cart'>
         <Navbar cartItems={cartItems} openBasket={openBasket} />
         { basketOpen === true ? <Basket cartItems={cartItems} openBasket={openBasket} addOn={addOn} removeOn={removeOn}/> : <></> }
         <RouteSwitch addOn={addOn} removeOn={removeOn}/>
