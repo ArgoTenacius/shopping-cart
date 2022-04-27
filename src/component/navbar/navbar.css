@@ -8,15 +8,14 @@
 }
 
 .navbar__icon{
-    position: absolute;
+    position: relative;
     font-size: 32px;
     cursor: pointer;
 }
 
 .navbar__item-count{
     user-select: none;
-    position: relative;
-    right: -5px;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;

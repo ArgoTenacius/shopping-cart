@@ -7,8 +7,8 @@ export const Basket = ({cartItems, openBasket, addOn, removeOn}) => {
   return (
     <section className='basketBackground'>
       <div className='basket'>
+        <AiOutlineClose onClick={openBasket} className='basket__list-icon'/>
         <span className='basket__list'>
-          <AiOutlineClose onClick={openBasket} className='basket__list-icon'/>
           {cartItems.map((x) => (
             <div key={x.id} className='basket__list-item'>
               <img src={x.img} alt='item_image' className='basket__list-item--image'/>
