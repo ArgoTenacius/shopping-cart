@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom'
 import './navbar.css'
 
 const Navbar = ({cartItems, openBasket}) => {
+
+  const getItemAmount = (list) => {
+    let value = list.reduce((x, list) =>  x + list.quantity, 0 )
+    return (value);
+  }
+
   return (
     <header className='navbar'>
         <Link to={'/'} className='navbar__link'>
@@ -15,7 +21,7 @@ const Navbar = ({cartItems, openBasket}) => {
         
         <AiFillShopping className='navbar__icon' onClick={openBasket}/>
         {cartItems.length <= 0 ? (<></>) : (
-          <h4 className='navbar__item-count'>{cartItems.length}</h4>
+          <h4 className='navbar__item-count'>{getItemAmount(cartItems)}</h4>
         ) }
     </header>
   )
