@@ -12,10 +12,10 @@ const Navbar = ({cartItems, openBasket}) => {
 
   return (
     <header className='navbar'>
-        <Link to={'/'} className='navbar__link'>
+        <Link to={'/shopping-cart'} className='navbar__link'>
           <h2>Home</h2>
         </Link>
-        <Link to={'/shopPage'} className='navbar__link'>
+        <Link to={'/shopping-cart/shopPage'} className='navbar__link'>
           <h2>Shop</h2>
         </Link>
         
