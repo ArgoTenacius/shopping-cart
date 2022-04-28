@@ -5,7 +5,7 @@ import ShopPage from "./pages/shopPage/ShopPage";
 const RouteSwitch = ({addOn, removeOn}) => {    
     return(
             <Routes>
-                <Route path="/shopping-cart/" element={<HomePage />} />
+                <Route path="/" element={<HomePage />} />
                 <Route path="/shopping-cart/shopPage" element={<ShopPage addOn={addOn} removeOn={removeOn} />} />
             </Routes>
     );
