@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/shopping-cart/static/css/main.cb4415af.css",
-    "main.js": "/shopping-cart/static/js/main.e0bed7d4.js",
+    "main.js": "/shopping-cart/static/js/main.d118eb22.js",
     "static/media/dragonKeyboard.webp": "/shopping-cart/static/media/dragonKeyboard.e6989b5707e18408cdf4.webp",
     "index.html": "/shopping-cart/index.html",
     "main.cb4415af.css.map": "/shopping-cart/static/css/main.cb4415af.css.map",
-    "main.e0bed7d4.js.map": "/shopping-cart/static/js/main.e0bed7d4.js.map"
+    "main.d118eb22.js.map": "/shopping-cart/static/js/main.d118eb22.js.map"
   },
   "entrypoints": [
     "static/css/main.cb4415af.css",
-    "static/js/main.e0bed7d4.js"
+    "static/js/main.d118eb22.js"
   ]
 }
